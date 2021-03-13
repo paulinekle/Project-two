@@ -54,11 +54,17 @@
     text-align: center;
 
 }
-.button {
-    margin-top: 20px;
-    position: center;
+.button:hover {
+    background-color: #ee77a0;
    }
+.button {
+    margin: 20px;
+  }
 
+.images-background img{
+    width: 100%;
+    padding-top: 10px;
+}
 
 .news-thumbs img{
     padding-left: 50px;
