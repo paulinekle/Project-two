@@ -43,20 +43,21 @@
 }
 
 .button {
-
+    background-color: pink;
     display: inline-block;
     padding: 12px 16px;
-    border: 1px solid black;
-    text-decoration: white;
-    color: #ff4500;
-    margin-bottom: 10px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
     text-align: center;
 
 }
 .button {
     margin-top: 20px;
-    margin: center;
-}
+    position: center;
+   }
 
 
 .news-thumbs img{
