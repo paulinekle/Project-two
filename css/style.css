@@ -16,7 +16,7 @@
     color: pink;
     text-align: center;
 }
-.logo {
+.logo  {
     display: block;
     margin: auto;
     padding-bottom: 0;
@@ -30,6 +30,13 @@
     display: block;
     margin-right: 30px;
 }
+
+p {
+    font-family: "work sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 .news-thumbs {
     display: flex;
     margin: 10px;
@@ -53,12 +60,14 @@
     margin: 4px 2px;
     text-align: center;
 
+
 }
 .button:hover {
     background-color: #ee77a0;
    }
-.button {
+.button  {
     margin: 20px;
+    float: center;
   }
 
 .images-background img{
@@ -103,6 +112,7 @@
     color: pink;
     font-size: 20px;
     text-align: center;
+    font-style: 'Neuton', Serif;
 }
 
 
