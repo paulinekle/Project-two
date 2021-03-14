@@ -70,14 +70,17 @@ p {
 .feature {
     display: flex;
     text-align: left;
+   
+}
+.chef-image {
+    display: flex;
+    padding: 15px;
 }
 
-
 h4 {
-    font-size: 18x;
-    float: right;
     padding: 10px;
-
+    font-family: "work sans",sans-serif;
+    font-size: 18px;
 }
 
 
