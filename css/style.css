@@ -2,6 +2,10 @@
 * {
     box-sizing: border-box;
 }
+
+div {
+    display: block;
+}
 .title-small {
     padding-top: 30px;
     text-align: center;
@@ -35,11 +39,14 @@ h3 {
     font-family: "Neuton", Serif;
     font-size: 45px;
     text-align: center;
+    color: pink;
 }
+
 
 h1 {
     font-family: "halimun";
     font-size: 50px;
+    color: pink;
 }
 p {
     margin-top: 20px;
@@ -60,6 +67,20 @@ p {
     padding-left: 50px;
 }
 
+.feature {
+    display: flex;
+    text-align: left;
+}
+
+
+h4 {
+    font-size: 18x;
+    float: right;
+    padding: 10px;
+
+}
+
+
 .button {
     background-color: pink;
     display: inline-block;
@@ -77,8 +98,9 @@ p {
     background-color: #ee77a0;
    }
 .button  {
-    margin: 20px;
-    float: center;
+    margin: 30px;
+    margin: 0;
+    position: center;
   }
 
 .images-background img{
