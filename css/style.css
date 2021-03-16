@@ -55,8 +55,10 @@ h1 {
 p {
     margin-top: 20px;
     font-family: "work sans", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .news-thumbs {
@@ -70,15 +72,33 @@ p {
     text-align: center;
     padding-left: 50px;
 }
+.article-tidbit {
+    padding-top: 50px;
+}
+.article {
 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
 .feature {
     display: flex;
     text-align: left;
    
 }
-.chef-image {
-    display: flex;
+.feature-image {
     padding: 15px;
+
+}
+
+.feature-content {
+    padding-left: 20px;
+}
+
+h5 {
+    padding: 10px;
+    font-family: "work sans",sans-serif;
+    font-size: 20px;
 }
 
 h4 {
@@ -94,19 +114,15 @@ h4 {
     border: none;
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     text-align: center;
-
 
 }
 .button:hover {
     background-color: #ee77a0;
    }
-.button  {
-    margin: 30px;
-    margin: 20px;
-      }
+
 
 .images-background img{
     width: 100%;
