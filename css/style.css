@@ -17,6 +17,12 @@ div {
     padding-bottom: 30px;
 }
 
+.title-small2 {
+    padding: 60px;
+  text-align: center;
+  background: pink;
+  font-size: 30px;
+}
 div image-background {
     width: 100%;
 }
@@ -56,6 +62,12 @@ h1 {
     font-size: 45px;
     color: pink;
 }
+h6 {
+    font-family: "halimun";
+    font-size: 45px;
+    color: white;
+}
+
 p {
     margin-top: 20px;
     font-family: "work sans", sans-serif;
@@ -114,7 +126,7 @@ p {
 h5 {
     padding: 10px;
     font-family: "work sans",sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h4 {
