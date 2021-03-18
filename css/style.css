@@ -86,11 +86,9 @@ p {
 }
 
 .news-thumbs {
-    
     margin: 10px;
     padding: 10px;
     text-align: center;
-
 }
 
 .news-thumbs2 {
@@ -199,9 +197,6 @@ input[type=submit]:hover {
 }
 
 
-
-
-
 .column {
   float: left;
   width: 50%;
@@ -225,7 +220,8 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-  .column, input[type=submit] {
+
+.column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -324,5 +320,8 @@ input[type=submit]:hover {
     font-family: "Neuton", Serif;
 }
 
+.news-thumbs {
+    display: flex;
+}
 
 
