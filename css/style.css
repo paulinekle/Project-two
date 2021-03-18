@@ -86,7 +86,7 @@ p {
 }
 
 .news-thumbs {
-    display: flex;
+    
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -229,13 +229,8 @@ footer {
     width: 100%;
     margin-top: 0;
   }
-.news-thumbs {
-    
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
 
-}
+
 
 footer {
   text-align: center;
@@ -308,7 +303,7 @@ input[type=submit]:hover {
 }
 
 
-  .column, input[type=submit] {
+.column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -330,14 +325,4 @@ input[type=submit]:hover {
 }
 
 
-}
 
-
-@media only screen and (min-width:768px) {
-.news-thumbs {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-
-}
-}
