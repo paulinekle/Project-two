@@ -87,8 +87,8 @@ p {
 
 .news-thumbs {
     display: flex;
-    margin-left: 150px;
-    text-align: center;
+     margin-left: 100px;
+    padding: 20px;
 }
 
 .news-thumbs2 {
@@ -99,7 +99,7 @@ p {
 
 .news-thumbs3{ 
     display: flex;
-    padding-left: 50px;
+    width: 80%;
     text-align: center;
 
  }
