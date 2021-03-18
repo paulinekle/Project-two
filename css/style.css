@@ -56,7 +56,6 @@ h3 {
     font-size: 45px;
     text-align: center;
     color: pink;
-    padding-left: 20px;
 }
 
 h2 {
@@ -218,7 +217,7 @@ input[type=submit]:hover {
 
 footer {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   background-color: pink;
   color: white;
 }
@@ -230,6 +229,22 @@ footer {
     width: 100%;
     margin-top: 0;
   }
+.news-thumbs {
+    
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+  color: white;
+}
+
+
 }
 
 
@@ -293,12 +308,16 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width: 768px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
+.main-banner img {
+    width: 100%;
+    padding-top: 60px;
+}
+
 
 .menu-destop a {
     margin-right: 30px;
@@ -311,3 +330,14 @@ input[type=submit]:hover {
 }
 
 
+}
+
+
+@media only screen and (min-width:768px) {
+.news-thumbs {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+}
