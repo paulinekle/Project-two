@@ -183,7 +183,9 @@ h4 {
     font-size: 20px;
 }
 
+/* Style inputs */
 input[type=text], select, textarea {
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -200,7 +202,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: pink;
+  background-color: #ed72a2;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
 }
 
 
@@ -216,6 +225,15 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 
 footer {
   text-align: center;
